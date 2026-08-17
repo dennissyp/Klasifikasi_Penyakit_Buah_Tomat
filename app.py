@@ -155,7 +155,7 @@ if uploaded_file is not None:
     # --------------------------------------------------------
 
     st.success(
-        f"Hasil Deteksi: {predicted_class}"
+        f"Hasil prediksi klasifikasi: {predicted_class}"
     )
 
     st.metric(
